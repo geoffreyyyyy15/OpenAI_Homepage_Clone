@@ -1,6 +1,6 @@
 <x-layout >
     <div class="flex justify-center ">
-        <div class=" bg-gray-800 p-2 w-96 h-96 mt-20 rounded-lg justify-center items-center">
+        <div class=" bg-gray-900 shadow-xl shadow-gray-500 mb-10 p-2 w-96 h-96  mt-20 rounded-lg justify-center items-center">
             <div class="flex-auto w-32 m-5 justify-center items-center relative">
                 <form action="/sessions" method="post" class="">
                     <h1 class="text-lg text-white">Login</h1>
