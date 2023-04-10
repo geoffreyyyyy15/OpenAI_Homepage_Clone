@@ -1,7 +1,7 @@
 <x-layout >
     <main>
         <div class="flex justify-center items-center w-full h-screen relative">
-            <div class="bg-gray-800 rounded-lg p-5 mb-5 mx-auto">
+            <div class="bg-gray-900 shadow-xl shadow-gray-400 rounded-lg p-5 mb-5 mx-auto">
                 <div class="flex flex-col gap-1 p-3">
                     <form action="{{ route('user.create') }}" method="post" class="flex flex-col gap-2">
                         @csrf
