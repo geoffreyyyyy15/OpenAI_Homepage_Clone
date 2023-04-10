@@ -34,40 +34,63 @@
                         </x-grid>
                 </x-container>
         <x-line />
-                <x-container >
-                    <x-grid column="4" class="">
-                        <div>
-                            <img src="{{asset('images/chatgpt.jpg')}}" alt="side pic">
+                <div class="grid grid-cols-2 gap-4 xs:block xl:inline-flex">
+                    <div class="p-4"><img src="{{asset('images/chatgpt.jpg')}}" alt=""></div>
+                    <div class="p-10 m-10"> 
+                        <h1 class="text-4xl text-white font-bold mb-4">
+                            ChatGPT
+                        </h1>
+                        <p class="text-xl text-white">
+                            We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer follow-up questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.</p>
+                         <div class="flex items-center mt-2 ">
+                            <a href="#" class="text-white mr-3 flex items-center font-bold gap-1">
+                                <span class="f-ui-1 underline-thickness-1 underline-offset-4 underline  group-hover:decoration-[rgba(var(--text-primary-rgb),0.2)]">Try ChatGPT</span>
+                                <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="a-icon--arrow-north-east400 a-icon--text a-icon--no-align top-[0.05em] relative f-ui-1" style="width:1em;height:1em;">
+                                    <polygon fill="currentColor" points="5 4.31 5 5.69 9.33 5.69 2.51 12.51 3.49 13.49 10.31 6.67 10.31 11 11.69 11 11.69 4.31 5 4.31"></polygon>
+                                </svg>
+                            </a>
                         </div>
-                            <div>
-                                <p class="text-xl ml-10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut mollitia deleniti reiciendis natus unde sed labore optio non laboriosam? Veritatis hic perspiciatis ratione nihil dolor expedita quae. Ut, libero ipsum.</p>
-                            </div>
-                        </x-grid>
-                </x-container>
+                        <div class="flex items-center mt-2 ">
+                            <a href="#" class="text-white mr-3 flex items-center font-bold gap-1">
+                                <span class="f-ui-1 underline-thickness-1 underline-offset-4 underline  group-hover:decoration-[rgba(var(--text-primary-rgb),0.2)]">Read about ChatGPT</span>   
+                            </a>
+                        </div>
+                        </div>
+                       
+                   
+                    </div>
+                
+                <div class="p-4">
+                   
+                </div>
         <x-line />
-        <x-container >
-            <div class="flex md:flex-row-reverse flex-wrap">
-                <x-grid column="4" class="w-full md:w-1/4 bg-gray-400 p-4 text-center text-gray-700">
+        <x-container title="Latest Update">
+            <div class="flex flex-wrap ">
+                <x-grid column="4" class="">
                     <x-about
                     file="gpt1.png"
                     hidden={{null}}
                     title="Creating safe AGI that benefits all of humanity"
-                    excerpt="Learn about OpenAI"/>
+                    excerpt="Learn about OpenAI"
+                    />
                 <x-about
                     file="gpt2.png"
                     hidden={{null}}
                     title="Pioneering research on the path to AGI"
-                    excerpt="Learn about our research"/>
+                    excerpt="Learn about our research"
+                    />
                 <x-about
                     file="gpt3.jpg"
                     hidden={{null}}
                     title="Transforming work and creativity with AI"
-                    excerpt="Explore our products"/>
+                    excerpt="Explore our products"
+                    />
                     <x-about
                     file="gpt4.jpg"
                     hidden={{null}}
                     title="Join us in shaping the future of technology"
-                    excerpt="View careers"/>
+                    excerpt="View careers"
+                    />
                 </x-grid>
             </div>
         </x-container>
