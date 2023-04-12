@@ -5,7 +5,10 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
-
+::selection {
+    background: white;
+    color: black;
+}
 .video-container {
     position: relative;
     width: 640px;
