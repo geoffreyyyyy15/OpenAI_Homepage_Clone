@@ -1,4 +1,4 @@
-![Screenshot 2023-04-12 145112](https://user-images.githubusercontent.com/48009181/231376515-55706a1b-4b28-495f-ae04-78c29a4f3bf3.png)
+
 ![image](https://user-images.githubusercontent.com/48009181/231377043-14a1b4d5-7054-4581-8797-ffe790a9614c.png)
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
