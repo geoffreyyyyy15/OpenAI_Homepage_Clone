@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100&display=swap" rel="stylesheet">
     <script src="//unpkg.com/alpinejs" defer></script>
-    <link rel="shortcut icon" href="{{ asset('images2/chat.ico') }}">
+    <link rel="shortcut icon" href="{{ asset('images/chat.ico') }}">
     {{-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" /> --}}
 
 </head>
